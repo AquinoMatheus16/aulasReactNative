@@ -1,9 +1,8 @@
 import { Text, View } from "react-native"
 
+
 export const Gatinho = ({ nome }) => {
     return (
-        <View>
-            <Text>GATINHO {nome}</Text>
-        </View>
+        <Text style={{ color: "#fff", fontSize: 50 }}>GATINHO {nome}</Text>
     )
 }
